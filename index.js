@@ -1,11 +1,7 @@
-// console.log("Enter the hero's name: ")
-let nameHero = "Ironman"
-
-// console.log("Enter hero experience level: ")
-let xpHero = 5000
+let nameHero = prompt("Enter the hero is name: ")
+let xpHero = prompt("Enter hero experience level: ")
 
 let level = " "
-
 
 if (xpHero <= 1000 ) {
     level = 'iron';
